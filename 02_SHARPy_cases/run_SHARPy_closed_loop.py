@@ -102,7 +102,7 @@ def run_flexop():
                         'gust_offset': 10 * dt *u_inf}
 
         #  Network settings for nonlinear in closed-loop simulations                       
-        network_settings = {'variables_filename': '/home/sduess/Documents/Aircraft Models/demonstrator_uvlm_enhenacements/01_case_files/flexop_network_info.yml',
+        network_settings = {'variables_filename': '../../02_SHARPy_cases/flexop_network_info.yml',
                                                 'send_output_to_all_clients': False,
                                                 'byte_ordering': 'little',
                                                 'received_data_filename': './output/' + case_name + '/input.dat',
